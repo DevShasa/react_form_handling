@@ -45,11 +45,11 @@ form{
     border: 1px solid gray;
     border-radius: 5px;
 
-    &:invalid[focused="true"] ~ span{
+    &:invalid[customAtributeToSupportShowErrorLogic="true"] ~ span{
       display: block;
     }
 
-    &:invalid[focused="true"]{
+    &:invalid[customAtributeToSupportShowErrorLogic="true"]{
       border: 1px solid red; 
     }
   }

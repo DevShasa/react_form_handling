@@ -17,7 +17,7 @@ const FormInput = (props) => {
                 onChange = {onChange} 
                 required  
                 onBlur={handleFocus}  // activates when user clicks away from element 
-                focused={focused.toString()}
+                customAtributeToSupportShowErrorLogic={focused.toString()}
                 onFocus={()=>inputProps.name === "confirmPassword" && setFocused(true)} // activates when user clicks element
             />
             <span>{errorMsg}</span>
